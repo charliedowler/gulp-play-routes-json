@@ -1,0 +1,37 @@
+{
+  "name": "gulp-play-routes-to-json",
+  "version": "0.1.0",
+  "description": "Convert your play routes file to a nicer json format using gulp",
+  "keywords": [
+    "gulpplugin",
+    "play"
+  ],
+  "author": {
+    "name": "charliedowler",
+    "url": "https://github.com/charliedowler"
+  },
+  "repository": {
+    "url": "git://github.com/charliedowler/gulp-play-routes-to-json"
+  },
+  "scripts": {
+    "test": "istanbul test _mocha --report html -- test/*.js --reporter spec"
+  },
+  "dependencies": {
+    "through2": "^0.6.1",
+    "gulp-util": "^3.0.1",
+    "play-routes-to-json": "^0.1.0",
+    "play-routes-from-json": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "mocha-lcov-reporter": "^0.0.1",
+    "istanbul": "^0.3.2",
+    "event-stream": "^3.1.7",
+    "should": "^4.0.4"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
